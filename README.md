@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🧠 MoodBoard
 
 A beautiful, simple mood and journal tracker built with **React**, **JavaScript**, **HTML**, **CSS**, and **Bootstrap**.
@@ -34,7 +33,7 @@ A beautiful, simple mood and journal tracker built with **React**, **JavaScript*
 ## 🛠️ How to Run Locally
 
 ```bash
-git clone https://github.com/Ritika26k/moodboard.git
+git clone https://github.com/diponchetia/MoodCheck.git
 cd moodboard
 npm install
 npm start
