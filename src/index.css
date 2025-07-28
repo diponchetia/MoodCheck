@@ -1,0 +1,84 @@
+/* 🌞 Light mode base */
+body {
+  background-color: #f0f4f8;
+  color: #1e1e2f;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  max-width: 750px;
+}
+
+/* 🌙 Dark mode */
+body.dark-mode {
+  background-color: #0e1013;
+  color: #f2f2f2;
+}
+
+/* Inputs and selects */
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+  background-color: #1f2226;
+  color: #f2f2f2;
+  border-color: #444;
+}
+
+body.dark-mode .btn-outline-secondary {
+  color: #ccc;
+  border-color: #ccc;
+}
+
+body.dark-mode .btn-outline-secondary:hover {
+  background-color: #ccc;
+  color: #121212;
+}
+
+/* Mood Buttons */
+button.btn-light.border {
+  background-color: #ffffff;
+  border-color: #dee2e6;
+  color: #1e1e2f;
+  font-weight: 500;
+  width: 90px;
+}
+
+button.btn-light.border:hover {
+  background-color: #e3f2fd;
+}
+
+button.border-primary {
+  border: 2px solid #0d6efd !important;
+}
+
+/* Form focus color */
+textarea:focus,
+select:focus,
+input:focus {
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 0 0.1rem rgba(13, 110, 253, 0.25);
+}
+
+/* Light mode cards */
+.card {
+  background-color: #ffffff;
+}
+
+/* Dark mode cards */
+body.dark-mode .card {
+  background-color: #1a1c20;
+  color: #f2f2f2;
+}
+
+/* Light-muted & dark-muted text */
+.text-muted {
+  color: #6c757d !important;
+}
+
+body.dark-mode .text-muted {
+  color: #b0b0b0 !important;
+}
