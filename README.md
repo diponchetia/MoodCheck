@@ -40,7 +40,7 @@ npm start
 ```
 **About the Developer**
 
-Hi! I’m Ritika — a front-end developer passionate about user-friendly interfaces and interactive web experiences.
+Hi! I’m Dipon — a front-end developer passionate about user-friendly interfaces and interactive web experiences.
 This is one of my first projects in my React journey!
 
 **Feedback**
